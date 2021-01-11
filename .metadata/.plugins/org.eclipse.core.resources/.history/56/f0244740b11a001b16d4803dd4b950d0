@@ -1,0 +1,12 @@
+package oo.composicao.desafio;
+
+
+public class Cliente {
+	
+	String nome;
+	//lista <compras>
+	
+	//método obter valor total();
+	
+
+}

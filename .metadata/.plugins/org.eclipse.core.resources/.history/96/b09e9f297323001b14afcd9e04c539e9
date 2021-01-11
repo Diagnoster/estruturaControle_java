@@ -1,0 +1,37 @@
+package oo.heranca.desafio;
+
+import oo.heranca.desafio.Carro;
+import oo.heranca.desafio.Civic;
+import oo.heranca.desafio.Ferrari;
+
+public class Dirigir {
+	public static void main(String[] args) {
+		
+		Civic civic = new Civic();
+		
+		civic.acelerar();
+		System.out.println(civic);
+		
+		civic.acelerar();
+		System.out.println(civic);
+		
+		civic.acelerar();
+		System.out.println(civic);
+		
+		Carro ferrari = new Ferrari(400); // ferrari extends carro, podemos generalizar como carro.
+		
+		ferrari.acelerar();
+		ferrari.freiar();
+		System.out.println(ferrari);
+		
+		ferrari.acelerar();
+		ferrari.freiar();
+		System.out.println(ferrari);
+		
+		ferrari.acelerar();
+		System.out.println(ferrari);
+		
+	
+	}
+
+}

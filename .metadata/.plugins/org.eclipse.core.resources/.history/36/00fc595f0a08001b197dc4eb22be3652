@@ -1,0 +1,19 @@
+package tibia;
+
+public class Acao {
+	
+	public static void main(String[] args) {
+		
+		Suprimento c1 = new Suprimento("Mana Potion",50);
+		Suprimento c2 = new Suprimento("Strong Mana Potion", 100);
+		
+		Vocacao v = new Vocacao ("Druid", 100);
+		
+		System.out.println(v.apresentar());
+		v.beber(c2);
+		System.out.println(v.apresentar());
+		
+		
+	}
+
+}

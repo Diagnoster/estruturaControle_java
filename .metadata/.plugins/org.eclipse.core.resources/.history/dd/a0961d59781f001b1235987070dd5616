@@ -1,0 +1,20 @@
+package oo.heranca.desafio;
+
+public class Carro {
+	
+	int velocidadeAtual = 50;
+	
+	int acelerar () {
+		velocidadeAtual += 5;
+		
+		return 0;
+	}
+	
+	int freiar () {
+		velocidadeAtual -= 5;
+		
+		return 0;
+	}
+	
+
+}

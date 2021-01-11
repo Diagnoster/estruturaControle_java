@@ -1,0 +1,11 @@
+package oo.composicao.desafio;
+
+public class ClienteTeste {
+
+	public static void main(String[] args) {
+		
+		//criar cliente, 2 compra , cada compra 2 itens, cada iten de produto diferente, 
+		// jogar os itens dentro da compra, compra associa a cliente, chamar metodo valor total
+		
+	}
+}

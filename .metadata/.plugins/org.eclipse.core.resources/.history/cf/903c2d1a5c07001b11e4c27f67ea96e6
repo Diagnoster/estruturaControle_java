@@ -1,0 +1,21 @@
+package tibia;
+
+public class Vocacao {
+	
+	String vocacao;
+	int mana;
+	
+	Vocacao (String vocacao, int mana) {
+		this.vocacao = vocacao;
+		this.mana = mana;
+	}
+	
+	void beber(Suprimento suprimento) {
+		this.mana = 50;
+	}
+	
+	String apresentar() { 
+		return "Olá eu sou um " + vocacao + " e tenho " + mana + " points ";
+	}
+
+}
